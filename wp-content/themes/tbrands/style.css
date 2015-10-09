@@ -1,0 +1,71 @@
+/*
+	Theme Name: Tbrands
+	Theme URI: http://alxmedia.se/themes/hueman/
+	Description: Sample child theme for customization.
+	Author: You
+	Author URI: 
+	Template: hueman
+	Version: 1.0.0
+*/
+
+@import url("../hueman/style.css");
+
+/* ------------------------------------------------------------------------- *
+ *  Theme customization starts here
+/* ------------------------------------------------------------------------- */
+
+/* Global */
+.mystyle {}
+
+
+/* Tablet - 800px, 768px & 720px */
+@media only screen and (min-width: 720px) and (max-width: 800px) {
+	.mystyle {}
+}
+
+
+/* Mobile - 480px & 320px */
+@media only screen and (max-width: 719px) {
+	.mystyle {}
+}
+
+
+/* Mobile - 320px */
+@media only screen and (max-width: 479px) {
+	.mystyle {}
+}
+
+#header .pad { 
+	padding-bottom:0px;
+	padding-top:0px;
+}
+.site-title a, .site-description { 
+	color:#002B7F;
+}
+.entry.excerpt { 
+	color:#222;
+}
+.post-title a { 
+	color:#002B7F;
+}
+.content .page-title { 
+	display:none;
+}
+.featured { 
+	display:none;
+}
+.pad {
+	padding:10px 20px 20px;
+}
+.listing-info table td { 
+	text-align:left;
+}
+.mainc { 
+	color:#002B7F;
+}
+.lt-mr-10 {
+	margin-left:10px;
+}
+.post-row article h2.post-title {
+	margin-bottom:0px;
+}
