@@ -32,11 +32,11 @@ get_header(); ?>
 				$term_list = '';
 				foreach ( $terms as $term ) {
 
-					$term_list .= '<div class="col-lg-4 col-md-12 col-xs-12 col-sm-12">
+					$term_list .= '<div class="col-lg-3 col-md-12 col-xs-12 col-sm-12">
 					<div id="osc_servicebox_2" class="osc_servicebox "><i class="fa fa-align-justify"></i>
 					<p></p>
-					<h3>' . $term->name . '</h3>
-					<div class="osc_servicebox_content">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce ullamcorper pulvinar tortor, ut blandit dui porttitor in. Duis pretium mattis blandit. Morbi eu euismod lorem.</div>
+					<h3><a class="osc_servicebox_readmore_css btn btn-lg" href="' . get_term_link( $term ) . '">' . $term->name . '</a></h3>
+					<div class="osc_servicebox_content">Class aptent taciti sociosqu .</div>
 					<p><a class="osc_servicebox_readmore_css btn btn-lg" href="' . get_term_link( $term ) . '">Read More</a></p>
 					</div>
 					</div>';
